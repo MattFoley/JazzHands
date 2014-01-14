@@ -12,15 +12,33 @@
 		03063ED317F5FAAD007D7A97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03063ED217F5FAAD007D7A97 /* UIKit.framework */; };
 		03063ED917F5FAAD007D7A97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03063ED717F5FAAD007D7A97 /* InfoPlist.strings */; };
 		03063EDB17F5FAAD007D7A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03063EDA17F5FAAD007D7A97 /* main.m */; };
-		03063EDF17F5FAAD007D7A97 /* IFTTTJazzHandsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03063EDE17F5FAAD007D7A97 /* IFTTTJazzHandsAppDelegate.m */; };
+		03063EDF17F5FAAD007D7A97 /* MFLJazzHandsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03063EDE17F5FAAD007D7A97 /* MFLJazzHandsAppDelegate.m */; };
 		03063EE117F5FAAD007D7A97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03063EE017F5FAAD007D7A97 /* Images.xcassets */; };
 		03063EE817F5FAAD007D7A97 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03063EE717F5FAAD007D7A97 /* XCTest.framework */; };
 		03063EE917F5FAAD007D7A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03063ECE17F5FAAD007D7A97 /* Foundation.framework */; };
 		03063EEA17F5FAAD007D7A97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03063ED217F5FAAD007D7A97 /* UIKit.framework */; };
 		03063EF217F5FAAD007D7A97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03063EF017F5FAAD007D7A97 /* InfoPlist.strings */; };
 		03063EF417F5FAAD007D7A97 /* JazzHandsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03063EF317F5FAAD007D7A97 /* JazzHandsDemoTests.m */; };
-		03063F1F17F5FC61007D7A97 /* IFTTTJazzHandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03063F1D17F5FC61007D7A97 /* IFTTTJazzHandsViewController.m */; };
-		97866F20AF9B48679E9D71F2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9210F48DEE499B8EC479E2 /* libPods.a */; };
+		03063F1F17F5FC61007D7A97 /* MFLJazzHandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03063F1D17F5FC61007D7A97 /* MFLJazzHandsViewController.m */; };
+		372712FA1884E00F00239E2F /* ic_tutorial_down_gem.png in Resources */ = {isa = PBXBuildFile; fileRef = 372712DB1884E00F00239E2F /* ic_tutorial_down_gem.png */; };
+		372712FB1884E00F00239E2F /* ic_tutorial_down_gem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372712DC1884E00F00239E2F /* ic_tutorial_down_gem@2x.png */; };
+		372712FC1884E00F00239E2F /* ic_tutorial_left_gem.png in Resources */ = {isa = PBXBuildFile; fileRef = 372712DD1884E00F00239E2F /* ic_tutorial_left_gem.png */; };
+		372712FD1884E00F00239E2F /* ic_tutorial_left_gem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372712DE1884E00F00239E2F /* ic_tutorial_left_gem@2x.png */; };
+		372712FE1884E00F00239E2F /* ic_tutorial_right_gem.png in Resources */ = {isa = PBXBuildFile; fileRef = 372712DF1884E00F00239E2F /* ic_tutorial_right_gem.png */; };
+		372712FF1884E00F00239E2F /* ic_tutorial_right_gem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372712E01884E00F00239E2F /* ic_tutorial_right_gem@2x.png */; };
+		372713001884E00F00239E2F /* ic_tutorial_up_gem.png in Resources */ = {isa = PBXBuildFile; fileRef = 372712E11884E00F00239E2F /* ic_tutorial_up_gem.png */; };
+		372713011884E00F00239E2F /* ic_tutorial_up_gem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372712E21884E00F00239E2F /* ic_tutorial_up_gem@2x.png */; };
+		372713021884E00F00239E2F /* MFLAlphaAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712E51884E00F00239E2F /* MFLAlphaAnimation.m */; };
+		372713031884E00F00239E2F /* MFLAngleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712E71884E00F00239E2F /* MFLAngleAnimation.m */; };
+		372713041884E00F00239E2F /* MFLAnimatedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712E91884E00F00239E2F /* MFLAnimatedScrollViewController.m */; };
+		372713051884E00F00239E2F /* MFLAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712EB1884E00F00239E2F /* MFLAnimation.m */; };
+		372713061884E00F00239E2F /* MFLAnimationFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712ED1884E00F00239E2F /* MFLAnimationFrame.m */; };
+		372713071884E00F00239E2F /* MFLAnimationKeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712EF1884E00F00239E2F /* MFLAnimationKeyFrame.m */; };
+		372713081884E00F00239E2F /* MFLAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712F11884E00F00239E2F /* MFLAnimator.m */; };
+		372713091884E00F00239E2F /* MFLColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712F31884E00F00239E2F /* MFLColorAnimation.m */; };
+		3727130A1884E00F00239E2F /* MFLFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712F51884E00F00239E2F /* MFLFrameAnimation.m */; };
+		3727130B1884E00F00239E2F /* MFLHideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 372712F71884E00F00239E2F /* MFLHideAnimation.m */; };
+		3727130C1884E00F00239E2F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 372712F91884E00F00239E2F /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,18 +60,46 @@
 		03063ED817F5FAAD007D7A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03063EDA17F5FAAD007D7A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03063EDC17F5FAAD007D7A97 /* JazzHandsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JazzHandsDemo-Prefix.pch"; sourceTree = "<group>"; };
-		03063EDD17F5FAAD007D7A97 /* IFTTTJazzHandsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFTTTJazzHandsAppDelegate.h; sourceTree = "<group>"; };
-		03063EDE17F5FAAD007D7A97 /* IFTTTJazzHandsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFTTTJazzHandsAppDelegate.m; sourceTree = "<group>"; };
+		03063EDD17F5FAAD007D7A97 /* MFLJazzHandsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFLJazzHandsAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03063EDE17F5FAAD007D7A97 /* MFLJazzHandsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFLJazzHandsAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		03063EE017F5FAAD007D7A97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03063EE617F5FAAD007D7A97 /* JazzHandsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JazzHandsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03063EE717F5FAAD007D7A97 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		03063EEF17F5FAAD007D7A97 /* JazzHandsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JazzHandsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		03063EF117F5FAAD007D7A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03063EF317F5FAAD007D7A97 /* JazzHandsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JazzHandsDemoTests.m; sourceTree = "<group>"; };
-		03063F1B17F5FC61007D7A97 /* IFTTTJazzHandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTJazzHandsViewController.h; sourceTree = "<group>"; };
-		03063F1D17F5FC61007D7A97 /* IFTTTJazzHandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTJazzHandsViewController.m; sourceTree = "<group>"; };
-		1F9210F48DEE499B8EC479E2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F134F59855F643BAB12B59DA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		03063F1B17F5FC61007D7A97 /* MFLJazzHandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFLJazzHandsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03063F1D17F5FC61007D7A97 /* MFLJazzHandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFLJazzHandsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		372712DB1884E00F00239E2F /* ic_tutorial_down_gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tutorial_down_gem.png; sourceTree = "<group>"; };
+		372712DC1884E00F00239E2F /* ic_tutorial_down_gem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tutorial_down_gem@2x.png"; sourceTree = "<group>"; };
+		372712DD1884E00F00239E2F /* ic_tutorial_left_gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tutorial_left_gem.png; sourceTree = "<group>"; };
+		372712DE1884E00F00239E2F /* ic_tutorial_left_gem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tutorial_left_gem@2x.png"; sourceTree = "<group>"; };
+		372712DF1884E00F00239E2F /* ic_tutorial_right_gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tutorial_right_gem.png; sourceTree = "<group>"; };
+		372712E01884E00F00239E2F /* ic_tutorial_right_gem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tutorial_right_gem@2x.png"; sourceTree = "<group>"; };
+		372712E11884E00F00239E2F /* ic_tutorial_up_gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tutorial_up_gem.png; sourceTree = "<group>"; };
+		372712E21884E00F00239E2F /* ic_tutorial_up_gem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tutorial_up_gem@2x.png"; sourceTree = "<group>"; };
+		372712E41884E00F00239E2F /* MFLAlphaAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLAlphaAnimation.h; sourceTree = "<group>"; };
+		372712E51884E00F00239E2F /* MFLAlphaAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLAlphaAnimation.m; sourceTree = "<group>"; };
+		372712E61884E00F00239E2F /* MFLAngleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLAngleAnimation.h; sourceTree = "<group>"; };
+		372712E71884E00F00239E2F /* MFLAngleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLAngleAnimation.m; sourceTree = "<group>"; };
+		372712E81884E00F00239E2F /* MFLAnimatedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLAnimatedScrollViewController.h; sourceTree = "<group>"; };
+		372712E91884E00F00239E2F /* MFLAnimatedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLAnimatedScrollViewController.m; sourceTree = "<group>"; };
+		372712EA1884E00F00239E2F /* MFLAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLAnimation.h; sourceTree = "<group>"; };
+		372712EB1884E00F00239E2F /* MFLAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLAnimation.m; sourceTree = "<group>"; };
+		372712EC1884E00F00239E2F /* MFLAnimationFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLAnimationFrame.h; sourceTree = "<group>"; };
+		372712ED1884E00F00239E2F /* MFLAnimationFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLAnimationFrame.m; sourceTree = "<group>"; };
+		372712EE1884E00F00239E2F /* MFLAnimationKeyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLAnimationKeyFrame.h; sourceTree = "<group>"; };
+		372712EF1884E00F00239E2F /* MFLAnimationKeyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLAnimationKeyFrame.m; sourceTree = "<group>"; };
+		372712F01884E00F00239E2F /* MFLAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLAnimator.h; sourceTree = "<group>"; };
+		372712F11884E00F00239E2F /* MFLAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLAnimator.m; sourceTree = "<group>"; };
+		372712F21884E00F00239E2F /* MFLColorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLColorAnimation.h; sourceTree = "<group>"; };
+		372712F31884E00F00239E2F /* MFLColorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLColorAnimation.m; sourceTree = "<group>"; };
+		372712F41884E00F00239E2F /* MFLFrameAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLFrameAnimation.h; sourceTree = "<group>"; };
+		372712F51884E00F00239E2F /* MFLFrameAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLFrameAnimation.m; sourceTree = "<group>"; };
+		372712F61884E00F00239E2F /* MFLHideAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLHideAnimation.h; sourceTree = "<group>"; };
+		372712F71884E00F00239E2F /* MFLHideAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLHideAnimation.m; sourceTree = "<group>"; };
+		372712F81884E00F00239E2F /* MFLJazzHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLJazzHands.h; sourceTree = "<group>"; };
+		372712F91884E00F00239E2F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +110,6 @@
 				03063ED117F5FAAD007D7A97 /* CoreGraphics.framework in Frameworks */,
 				03063ED317F5FAAD007D7A97 /* UIKit.framework in Frameworks */,
 				03063ECF17F5FAAD007D7A97 /* Foundation.framework in Frameworks */,
-				97866F20AF9B48679E9D71F2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +133,6 @@
 				03063EED17F5FAAD007D7A97 /* JazzHandsDemoTests */,
 				03063ECD17F5FAAD007D7A97 /* Frameworks */,
 				03063ECC17F5FAAD007D7A97 /* Products */,
-				F134F59855F643BAB12B59DA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +152,6 @@
 				03063ED017F5FAAD007D7A97 /* CoreGraphics.framework */,
 				03063ED217F5FAAD007D7A97 /* UIKit.framework */,
 				03063EE717F5FAAD007D7A97 /* XCTest.framework */,
-				1F9210F48DEE499B8EC479E2 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,10 +159,11 @@
 		03063ED417F5FAAD007D7A97 /* JazzHandsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				03063F1B17F5FC61007D7A97 /* IFTTTJazzHandsViewController.h */,
-				03063F1D17F5FC61007D7A97 /* IFTTTJazzHandsViewController.m */,
-				03063EDD17F5FAAD007D7A97 /* IFTTTJazzHandsAppDelegate.h */,
-				03063EDE17F5FAAD007D7A97 /* IFTTTJazzHandsAppDelegate.m */,
+				372712DA1884E00F00239E2F /* Tutorial */,
+				03063F1B17F5FC61007D7A97 /* MFLJazzHandsViewController.h */,
+				03063F1D17F5FC61007D7A97 /* MFLJazzHandsViewController.m */,
+				03063EDD17F5FAAD007D7A97 /* MFLJazzHandsAppDelegate.h */,
+				03063EDE17F5FAAD007D7A97 /* MFLJazzHandsAppDelegate.m */,
 				03063EE017F5FAAD007D7A97 /* Images.xcassets */,
 				03063ED517F5FAAD007D7A97 /* Supporting Files */,
 			);
@@ -155,6 +199,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		372712DA1884E00F00239E2F /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				372712DB1884E00F00239E2F /* ic_tutorial_down_gem.png */,
+				372712DC1884E00F00239E2F /* ic_tutorial_down_gem@2x.png */,
+				372712DD1884E00F00239E2F /* ic_tutorial_left_gem.png */,
+				372712DE1884E00F00239E2F /* ic_tutorial_left_gem@2x.png */,
+				372712DF1884E00F00239E2F /* ic_tutorial_right_gem.png */,
+				372712E01884E00F00239E2F /* ic_tutorial_right_gem@2x.png */,
+				372712E11884E00F00239E2F /* ic_tutorial_up_gem.png */,
+				372712E21884E00F00239E2F /* ic_tutorial_up_gem@2x.png */,
+				372712E31884E00F00239E2F /* Jazz Hands */,
+				372712F91884E00F00239E2F /* LICENSE */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		372712E31884E00F00239E2F /* Jazz Hands */ = {
+			isa = PBXGroup;
+			children = (
+				372712E41884E00F00239E2F /* MFLAlphaAnimation.h */,
+				372712E51884E00F00239E2F /* MFLAlphaAnimation.m */,
+				372712E61884E00F00239E2F /* MFLAngleAnimation.h */,
+				372712E71884E00F00239E2F /* MFLAngleAnimation.m */,
+				372712E81884E00F00239E2F /* MFLAnimatedScrollViewController.h */,
+				372712E91884E00F00239E2F /* MFLAnimatedScrollViewController.m */,
+				372712EA1884E00F00239E2F /* MFLAnimation.h */,
+				372712EB1884E00F00239E2F /* MFLAnimation.m */,
+				372712EC1884E00F00239E2F /* MFLAnimationFrame.h */,
+				372712ED1884E00F00239E2F /* MFLAnimationFrame.m */,
+				372712EE1884E00F00239E2F /* MFLAnimationKeyFrame.h */,
+				372712EF1884E00F00239E2F /* MFLAnimationKeyFrame.m */,
+				372712F01884E00F00239E2F /* MFLAnimator.h */,
+				372712F11884E00F00239E2F /* MFLAnimator.m */,
+				372712F21884E00F00239E2F /* MFLColorAnimation.h */,
+				372712F31884E00F00239E2F /* MFLColorAnimation.m */,
+				372712F41884E00F00239E2F /* MFLFrameAnimation.h */,
+				372712F51884E00F00239E2F /* MFLFrameAnimation.m */,
+				372712F61884E00F00239E2F /* MFLHideAnimation.h */,
+				372712F71884E00F00239E2F /* MFLHideAnimation.m */,
+				372712F81884E00F00239E2F /* MFLJazzHands.h */,
+			);
+			path = "Jazz Hands";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,11 +251,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03063EF717F5FAAD007D7A97 /* Build configuration list for PBXNativeTarget "JazzHandsDemo" */;
 			buildPhases = (
-				32890CD647DF4D6C8EC92A98 /* Check Pods Manifest.lock */,
 				03063EC717F5FAAD007D7A97 /* Sources */,
 				03063EC817F5FAAD007D7A97 /* Frameworks */,
 				03063EC917F5FAAD007D7A97 /* Resources */,
-				FC7B1BBCE95B4DBA8F88409A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +321,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				03063ED917F5FAAD007D7A97 /* InfoPlist.strings in Resources */,
+				372712FD1884E00F00239E2F /* ic_tutorial_left_gem@2x.png in Resources */,
+				372712FA1884E00F00239E2F /* ic_tutorial_down_gem.png in Resources */,
+				372713001884E00F00239E2F /* ic_tutorial_up_gem.png in Resources */,
+				372712FE1884E00F00239E2F /* ic_tutorial_right_gem.png in Resources */,
+				3727130C1884E00F00239E2F /* LICENSE in Resources */,
+				372712FB1884E00F00239E2F /* ic_tutorial_down_gem@2x.png in Resources */,
+				372712FF1884E00F00239E2F /* ic_tutorial_right_gem@2x.png in Resources */,
+				372713011884E00F00239E2F /* ic_tutorial_up_gem@2x.png in Resources */,
+				372712FC1884E00F00239E2F /* ic_tutorial_left_gem.png in Resources */,
 				03063EE117F5FAAD007D7A97 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,47 +344,24 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		32890CD647DF4D6C8EC92A98 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FC7B1BBCE95B4DBA8F88409A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		03063EC717F5FAAD007D7A97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03063EDF17F5FAAD007D7A97 /* IFTTTJazzHandsAppDelegate.m in Sources */,
-				03063F1F17F5FC61007D7A97 /* IFTTTJazzHandsViewController.m in Sources */,
+				3727130B1884E00F00239E2F /* MFLHideAnimation.m in Sources */,
+				3727130A1884E00F00239E2F /* MFLFrameAnimation.m in Sources */,
+				372713061884E00F00239E2F /* MFLAnimationFrame.m in Sources */,
+				372713031884E00F00239E2F /* MFLAngleAnimation.m in Sources */,
+				372713091884E00F00239E2F /* MFLColorAnimation.m in Sources */,
+				372713081884E00F00239E2F /* MFLAnimator.m in Sources */,
+				372713051884E00F00239E2F /* MFLAnimation.m in Sources */,
+				03063EDF17F5FAAD007D7A97 /* MFLJazzHandsAppDelegate.m in Sources */,
+				03063F1F17F5FC61007D7A97 /* MFLJazzHandsViewController.m in Sources */,
+				372713071884E00F00239E2F /* MFLAnimationKeyFrame.m in Sources */,
 				03063EDB17F5FAAD007D7A97 /* main.m in Sources */,
+				372713041884E00F00239E2F /* MFLAnimatedScrollViewController.m in Sources */,
+				372713021884E00F00239E2F /* MFLAlphaAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +477,6 @@
 		};
 		03063EF817F5FAAD007D7A97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F134F59855F643BAB12B59DA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -413,31 +485,19 @@
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
 				CLANG_WARN_CXX0X_EXTENSIONS = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JazzHandsDemo/JazzHandsDemo-Prefix.pch";
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
-				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
-				GCC_WARN_SHADOW = YES;
-				GCC_WARN_SIGN_COMPARE = YES;
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = "JazzHandsDemo/JazzHandsDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -447,7 +507,6 @@
 		};
 		03063EF917F5FAAD007D7A97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F134F59855F643BAB12B59DA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,31 +515,19 @@
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
 				CLANG_WARN_CXX0X_EXTENSIONS = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JazzHandsDemo/JazzHandsDemo-Prefix.pch";
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
-				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
-				GCC_WARN_SHADOW = YES;
-				GCC_WARN_SIGN_COMPARE = YES;
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = "JazzHandsDemo/JazzHandsDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
