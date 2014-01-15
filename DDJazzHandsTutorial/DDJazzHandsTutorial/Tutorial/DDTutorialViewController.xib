@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -7,10 +7,17 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDTutorialViewController">
             <connections>
                 <outlet property="down" destination="qBh-2P-CUr" id="W9z-p8-eyK"/>
+                <outlet property="downTextView" destination="BZ8-pH-4Lg" id="3JK-Co-Hqw"/>
+                <outlet property="gemView" destination="3gO-tm-KNZ" id="Ebu-lD-wy9"/>
                 <outlet property="left" destination="BeS-Ln-HGX" id="L5M-E3-uds"/>
+                <outlet property="leftTextView" destination="jhv-BQ-nle" id="4bW-G2-KrW"/>
+                <outlet property="pageOne" destination="M5W-be-ZEZ" id="wrn-5E-2jc"/>
+                <outlet property="pageTwo" destination="yxD-HQ-kAM" id="LME-un-Lkl"/>
                 <outlet property="right" destination="6Sp-13-o18" id="enR-DS-urU"/>
+                <outlet property="rightTextView" destination="ub4-FI-kMw" id="dbV-Tm-Led"/>
                 <outlet property="scrollView" destination="xb7-sm-P4C" id="fkl-aY-evZ"/>
                 <outlet property="up" destination="qu4-gF-zG9" id="vqu-a4-EWT"/>
+                <outlet property="upTextView" destination="eG6-Iu-SV3" id="cdN-az-VFj"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -19,39 +26,140 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xb7-sm-P4C">
+                <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xb7-sm-P4C">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_tutorial_down_gem" translatesAutoresizingMaskIntoConstraints="NO" id="qBh-2P-CUr">
-                            <rect key="frame" x="129" y="235" width="62" height="61"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_tutorial_right_gem" translatesAutoresizingMaskIntoConstraints="NO" id="6Sp-13-o18">
-                            <rect key="frame" x="159" y="205" width="62" height="61"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_tutorial_left_gem" translatesAutoresizingMaskIntoConstraints="NO" id="BeS-Ln-HGX">
-                            <rect key="frame" x="99" y="205" width="62" height="61"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_tutorial_up_gem" translatesAutoresizingMaskIntoConstraints="NO" id="qu4-gF-zG9">
-                            <rect key="frame" x="129" y="175" width="62" height="61"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <view contentMode="scaleToFill" id="BZ8-pH-4Lg" userLabel="Down">
+                            <rect key="frame" x="960" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_lowtext_down.png" id="oAC-8J-ibx">
+                                    <rect key="frame" x="20" y="443.5" width="200" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_toptext_down.png" id="afd-zf-BSo">
+                                    <rect key="frame" x="20" y="25.5" width="261" height="155"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="ub4-FI-kMw" userLabel="Right">
+                            <rect key="frame" x="1920" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_lowtext_right.png" id="UIt-ws-1kK">
+                                    <rect key="frame" x="20" y="443.5" width="226" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_toptext_right.png" id="kzz-AX-cFn">
+                                    <rect key="frame" x="20" y="25.5" width="253" height="155"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="jhv-BQ-nle" userLabel="Left">
+                            <rect key="frame" x="1600" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_lowtext_left.png" id="FrJ-47-L9B">
+                                    <rect key="frame" x="20" y="443" width="197" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_toptext_left.png" id="rfN-gl-Ukh">
+                                    <rect key="frame" x="20" y="25" width="223" height="155"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="eG6-Iu-SV3" userLabel="Up">
+                            <rect key="frame" x="1280" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_lowtext_up.png" id="OO3-ka-1jd">
+                                    <rect key="frame" x="20" y="443.5" width="200" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_toptext_up.png" id="8lh-vv-M0W">
+                                    <rect key="frame" x="20" y="25.5" width="189" height="155"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="yxD-HQ-kAM" userLabel="Page Two">
+                            <rect key="frame" x="320" y="0.0" width="322" height="568"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_tutorial_blocks_info.png" id="lX4-bN-Ivf" userLabel="Page Two">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_tutorial_blocks_info_text.png" id="GVe-q5-6ao">
+                                    <rect key="frame" x="30" y="20" width="206" height="170"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="3gO-tm-KNZ" userLabel="Gem View">
+                            <rect key="frame" x="740" y="15" width="122" height="121"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_tutorial_down_gem.png" id="qBh-2P-CUr">
+                                    <rect key="frame" x="30" y="107" width="62" height="61"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_tutorial_right_gem.png" id="6Sp-13-o18">
+                                    <rect key="frame" x="107" y="30" width="62" height="61"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_tutorial_left_gem.png" id="BeS-Ln-HGX">
+                                    <rect key="frame" x="-47" y="30" width="62" height="61"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_tutorial_up_gem.png" id="qu4-gF-zG9">
+                                    <rect key="frame" x="30" y="-47" width="62" height="61"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_tutorial_type_info.png" id="M5W-be-ZEZ" userLabel="Page One">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                         </imageView>
                     </subviews>
-                    <color key="backgroundColor" red="1" green="0.72708608699050992" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="fX5-sk-3gP"/>
+                    </connections>
                 </scrollView>
             </subviews>
-            <color key="backgroundColor" red="1" green="0.72708608699999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
     <resources>
-        <image name="ic_tutorial_down_gem" width="62" height="61"/>
-        <image name="ic_tutorial_left_gem" width="62" height="61"/>
-        <image name="ic_tutorial_right_gem" width="62" height="61"/>
-        <image name="ic_tutorial_up_gem" width="62" height="61"/>
+        <image name="ic_tutorial_down_gem.png" width="62" height="61"/>
+        <image name="ic_tutorial_left_gem.png" width="62" height="61"/>
+        <image name="ic_tutorial_right_gem.png" width="62" height="61"/>
+        <image name="ic_tutorial_up_gem.png" width="62" height="61"/>
+        <image name="img_tutorial_blocks_info.png" width="320" height="568"/>
+        <image name="img_tutorial_blocks_info_text.png" width="206" height="170"/>
+        <image name="img_tutorial_type_info.png" width="320" height="568"/>
+        <image name="tutorial_lowtext_down.png" width="200" height="100"/>
+        <image name="tutorial_lowtext_left.png" width="197" height="100"/>
+        <image name="tutorial_lowtext_right.png" width="226" height="100"/>
+        <image name="tutorial_lowtext_up.png" width="200" height="100"/>
+        <image name="tutorial_toptext_down.png" width="261" height="155"/>
+        <image name="tutorial_toptext_left.png" width="223" height="155"/>
+        <image name="tutorial_toptext_right.png" width="253" height="155"/>
+        <image name="tutorial_toptext_up.png" width="189" height="155"/>
     </resources>
 </document>

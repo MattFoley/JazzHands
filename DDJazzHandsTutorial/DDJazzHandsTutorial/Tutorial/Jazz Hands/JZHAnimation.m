@@ -74,7 +74,7 @@
         JZHAnimationKeyFrame *keyFrame = [self.keyFrames objectAtIndex:i];
         JZHAnimationKeyFrame *nextKeyFrame = [self.keyFrames objectAtIndex:i+1];
         
-        for (NSInteger j = keyFrame.time; j <= nextKeyFrame.time; j++) {
+        for (NSInteger j = keyFrame.time; j < nextKeyFrame.time; j++) {
             [self.timeline addObject:[self frameForTime:j startKeyFrame:keyFrame endKeyFrame:nextKeyFrame]];
         }
     }

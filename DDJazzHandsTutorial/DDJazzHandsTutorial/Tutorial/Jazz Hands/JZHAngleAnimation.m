@@ -14,7 +14,7 @@
     if (self.keyFrames.count <= 1) return;
 
     JZHAnimationFrame *animationFrame = [self animationFrameForTime:time];
-    self.view.transform = CGAffineTransformMakeRotation(animationFrame.angle);
+    self.view.layer.transform = CATransform3DMakeAffineTransform(CGAffineTransformMakeRotation(animationFrame.angle));
 
 }
 
