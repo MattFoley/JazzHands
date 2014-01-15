@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MFLJazzHandsAppDelegate.h"
+#import "JZHJazzHandsAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([MFLJazzHandsAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([JZHJazzHandsAppDelegate class]));
     }
 }
